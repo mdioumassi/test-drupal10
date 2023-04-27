@@ -1,0 +1,24 @@
+uuid: a6146708-3361-499d-a53d-b81d2ade7352
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.offer.field_prix
+  module:
+    - offer
+id: offer.offer.field_prix
+field_name: field_prix
+entity_type: offer
+bundle: offer
+label: Prix
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: ''
+  suffix: €
+field_type: decimal

@@ -1,0 +1,36 @@
+uuid: a72dae17-c36b-421e-b48b-7e2050e52ded
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.offer.step_3
+    - field.field.offer.offer.field_description
+    - field.field.offer.offer.field_image
+    - field.field.offer.offer.field_offer_type
+    - field.field.offer.offer.field_prix
+  module:
+    - offer
+id: offer.offer.step_3
+targetEntityType: offer
+bundle: offer
+mode: step_3
+content:
+  field_offer_type:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_prix:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_description: true
+  field_image: true
+  moderation_state: true
+  title: true
+  user_id: true

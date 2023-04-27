@@ -1,0 +1,21 @@
+uuid: 1f411c70-a629-4af8-a7a3-b0d743cb87c2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.offer.field_offer_type
+  module:
+    - offer
+    - options
+id: offer.offer.field_offer_type
+field_name: field_offer_type
+entity_type: offer
+bundle: offer
+label: 'Offer type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

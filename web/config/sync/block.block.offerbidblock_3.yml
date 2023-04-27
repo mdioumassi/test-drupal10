@@ -1,0 +1,33 @@
+uuid: 4b63f30d-2279-42bb-a36b-3015f62b908b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - offer
+    - system
+    - user
+  theme:
+    - bootstrap5
+id: offerbidblock_3
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: offer_bidding_block
+settings:
+  id: offer_bidding_block
+  label: 'Offer bid block'
+  label_display: '0'
+  provider: offer
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/offer/*'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated

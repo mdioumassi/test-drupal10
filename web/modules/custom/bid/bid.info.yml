@@ -1,0 +1,6 @@
+name: bid
+type: module
+description: bid entity
+core_version_requirement: ^9 || ^10
+dependencies:
+  - offer

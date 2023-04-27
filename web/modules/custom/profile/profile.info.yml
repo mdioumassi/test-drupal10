@@ -1,0 +1,5 @@
+name: profile
+type: module
+description: Module to create content entity type
+package: Custom
+core_version_requirement: ^9 || ^10

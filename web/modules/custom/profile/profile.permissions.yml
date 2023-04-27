@@ -1,0 +1,4 @@
+administer profile:
+  title: 'Create/edit/delete profilz'
+  description: 'Optional description.'
+  restrict access: true

@@ -1,0 +1,22 @@
+entity.exemple.settings:
+  title: 'Settings'
+  route_name: entity.exemple.settings
+  base_route: entity.exemple.settings
+entity.exemple.view:
+  title: 'View'
+  route_name: entity.exemple.canonical
+  base_route: entity.exemple.canonical
+entity.exemple.edit_form:
+  title: 'Edit'
+  route_name: entity.exemple.edit_form
+  base_route: entity.exemple.canonical
+entity.exemple.delete_form:
+  title: 'Delete'
+  route_name: entity.exemple.delete_form
+  base_route: entity.exemple.canonical
+  weight: 10
+entity.exemple.collection:
+  title: 'Exemples'
+  route_name: entity.exemple.collection
+  base_route: system.admin_content
+  weight: 10

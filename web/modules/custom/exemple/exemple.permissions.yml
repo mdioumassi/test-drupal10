@@ -1,0 +1,16 @@
+administer exemple configuration:
+  title: 'Administer exemple configuration'
+  description: 'Optional description.'
+  restrict access: true
+
+administer exemple:
+  title: 'Administer exemple settings'
+  restrict access: true
+delete exemple:
+  title: Delete exemple
+create exemple:
+  title: Create exemple
+view exemple:
+  title: View exemple
+edit exemple:
+  title: Edit exemple

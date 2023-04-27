@@ -1,0 +1,10 @@
+uuid: 33e19539-3e77-4a17-bc21-0b87bbcdb854
+langcode: fr
+status: true
+dependencies:
+  module:
+    - offer
+id: offer.step_3
+label: Step3
+targetEntityType: offer
+cache: true

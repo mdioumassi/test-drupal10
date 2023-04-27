@@ -1,0 +1,7 @@
+entity.exemple.settings:
+  path: 'admin/structure/exemple'
+  defaults:
+    _form: '\Drupal\exemple\Form\ExempleSettingsForm'
+    _title: 'Exemple'
+  requirements:
+    _permission: 'administer exemple'

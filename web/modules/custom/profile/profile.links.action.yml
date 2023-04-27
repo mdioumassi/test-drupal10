@@ -1,0 +1,8 @@
+profile.add:
+  route_name: entity.profile.add_form
+  options:
+    attributes: {target: _top}
+  title: Add profile
+  weight: 10
+  appears_on:
+    - entity.profile.collection

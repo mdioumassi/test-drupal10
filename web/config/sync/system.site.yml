@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: fr
+uuid: 8db4fa50-763f-4198-b720-1d0b1fdc7fb4
+name: 'Test Drupal'
+mail: mdioumassi@yahoo.fr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /offer
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: fr

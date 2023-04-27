@@ -1,0 +1,27 @@
+uuid: f53c45a2-309f-4fff-b837-0fff87f483f2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - offer
+    - options
+id: offer.field_offer_type
+field_name: field_offer_type
+entity_type: offer
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: avec_minimum
+      label: 'Prix minimum'
+    -
+      value: sans_minimum
+      label: 'Pas de prix minimum'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

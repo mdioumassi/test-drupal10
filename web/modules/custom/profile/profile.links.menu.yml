@@ -1,0 +1,7 @@
+# Simple link.
+profile.node_add:
+  title: Profile Entity
+  description: Create Profile Entity Type
+  route_name: entity.profile.collection
+  weight: 10
+  parent: system.admin_structure
